@@ -30,7 +30,7 @@ body {
 main {
     height: 100%;
     font-family: Ubuntu, sans-serif;
-    display: block;
+    /* display: block; */
 }
 
 main .container {
@@ -47,7 +47,7 @@ main .container {
 }
 
 .container {
-    background-color: #6c45c4;
+    /* background-color: #6c45c4; */
     background: linear-gradient(135deg, #d290e8 0, #9c71eb 30%, #d290e8 100%) fixed;
 }
 
@@ -58,7 +58,7 @@ main .container {
     height: var(--boxHeight);
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 1px 1px 16px 1px #f79e02;
+    box-shadow: 1px 1px 16px 1px rgb(166, 184, 204);
     background-color: #fff;
 }
 
@@ -80,26 +80,33 @@ main .container {
     font-weight: 800;
     font-size: 1.6rem;
     line-height: 2;
+
 }
 
-.box .section .role {
+.box .section .roles {
     font-weight: 500;
     font-size: 1.2rem;
     color: #4285f4;
     line-height: 1.4;
+    margin-bottom: 0.3rem;
+
 }
 
 .box .section .tags {
     font-weight: 400;
-    font-size: .7rem;
+    font-size: 0.8rem;
     font-style: italic;
     color: #666;
     line-height: 1.4;
+    margin-bottom: 0.3rem;
+
 }
 
 .connection {
     margin-top: 1rem;
     font-size: 1rem;
+    margin-bottom: 0.3rem;
+
 }
 
 .connection a {
